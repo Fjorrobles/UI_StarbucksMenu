@@ -12,9 +12,8 @@ class Test(TestCase):
         find out more about how to test streamlit apps:
         https://docs.streamlit.io/library/api-reference/app-testing
         """
-        at = AppTest.from_file("./app/Sedona_Weather.py")
+        at = AppTest.from_file("./app/starbucks_menu.py")
         at.run()
 
-        assert at.title[0].value.startswith("Weather Forecast")
-        assert at.subheader[0].value.startswith("Updated")
+        assert at.title[0].value.startswith("Strabucks Menu Data")
         assert not at.exception
