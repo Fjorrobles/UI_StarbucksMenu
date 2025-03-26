@@ -1,6 +1,6 @@
 """
 Test the data module.
-Author: Wolf Paulus (wolf@paulus.com)
+Author: Wolf Paulus (wolf@paulus.com) Modified by Fjor Robles
 """
 from unittest import TestCase
 from data2 import web_scraper
