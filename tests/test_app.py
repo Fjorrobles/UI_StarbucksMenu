@@ -1,6 +1,6 @@
 """
 Test the app module.
-Author: Wolf Paulus (wolf@paulus.com)
+Author: Wolf Paulus (wolf@paulus.com) Modified by Fjor Robles
 """
 from unittest import TestCase
 from streamlit.testing.v1 import AppTest
